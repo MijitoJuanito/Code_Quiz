@@ -1,0 +1,143 @@
+/* Global styles */
+* {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+/* Navigation bar styles */
+.timer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 10px;
+  font-weight: bold;
+}
+
+/* Heading styles */
+h1 {
+  font-size: 36px;
+  color: #6a0071; /* Darker purple */
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* Button styles */
+button#start-button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #8b008b; /* Darker purple */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button#start-button:hover {
+  background-color: #6a0071; /* Lighter purple on hover */
+}
+
+/* Answer styles */
+.choices button {
+  display: inline-block;
+  margin: 5px auto;
+  padding: 8px 20px;
+  background-color: #8b008b; /* Darker purple */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.choices button:hover {
+  background-color: #6a0071; /* Lighter purple on hover */
+}
+
+/* Body styles */
+body {
+  background-color: #f0f0f0; /* Light gray */
+  margin: 0;
+  padding: 0;
+}
+
+/* Quiz container styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hidden element styles */
+.hide {
+  display: none;
+}
+
+/* Question and answer container styles */
+#questions {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#questions #question {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.choices {
+  text-align: center;
+  margin: auto;
+}
+
+/* End container styles */
+#end-container {
+  text-align: center;
+  display: none;
+  margin-top: 20px;
+}
+
+#end-container h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#end-container #final-score {
+  color: #6a0071; /* Darker purple */
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#score-form {
+  margin-top: 20px;
+}
+
+#score-form label {
+  font-weight: bold;
+}
+
+#score-form input[type="text"] {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #6a0071; /* Darker purple */
+}
+
+#score-form button[type="submit"] {
+  display: block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #8b008b; /* Darker purple */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#score-form button[type="submit"]:hover {
+  background-color: #6a0071; /* Lighter purple on hover */
+}
