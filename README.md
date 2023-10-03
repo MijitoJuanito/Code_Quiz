@@ -19,7 +19,7 @@
 ### Executing-Program
 
 * open the index.html in default browser
-* Click the link [Code Quiz]() for the deployed application
+* Click the link [Code Quiz](https://github.com/MijitoJuanito/Code_Quiz/deployments/github-pages) for the deployed application
 
 
 ### Questions
