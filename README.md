@@ -4,22 +4,29 @@
   * [Description](#description)
   * [Installation](#installation)
   * [Executing-Program](###Executing-Program)
+  * [Demonstration](###Demonstration)
   * [Questions](#questions)
   * [License](#license)
   
 
 
 ## Description:
-   -This application is a Quiz application about basic coding questions. You would go through this multiple choice question quiz within the time limit and at the end of the quiz you will gather a score where you can input your name to keep track of your scores
-
-
+-This application is a Quiz application about basic coding questions. You would go through this multiple choice question quiz within the time limit and at the end of the quiz you will gather a score where you can input your name to keep track of your scores
 ## Getting Started
 
+### Installation
+
+Download code
 
 ### Executing-Program
+* Open the index.html in a default browser
 
-* open the index.html in default browser
-* Click the link [Code Quiz](https://github.com/MijitoJuanito/Code_Quiz/deployments/github-pages) for the deployed application
+### Demonstration
+
+![Demo of Code Quiz](./Assets/CodeQuiz.jpg)
+[CODE QUIZ DEMO](https://mijitojuanito.github.io/Code_Quiz/)
+
+
 
 
 ### Questions
@@ -57,8 +64,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-
 
 
 
